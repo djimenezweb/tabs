@@ -6,10 +6,24 @@
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>Tabs</title>
   </head>
   <body>
-    <img src="./assets/images/anubis.jpg" width="500px" alt="anubis" />
+    <h1>CSS & JavaScript tabs</h1>
+    <section class="tab__container">
+      <ul class="tab__head" id="tab-head">
+        <div class="bubble"></div>
+        <div class="tab__underline"></div>
+        <li class="tab__title tab__title--active" data-title="features">Features</li>
+        <li class="tab__title" data-title="delivery">Delivery Contents</li>
+        <li class="tab__title" data-title="shipping">Shipping</li>
+        <li class="tab__title" data-title="returns">Returns</li>
+      </ul>
+      <div class="tab__body show"><p>Features text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+      <div class="tab__body"><p>Delivery Contents text. Unde quia reiciendis architecto molestias quas voluptatem.</p></div>
+      <div class="tab__body"><p>Shipping text. Architecto minus non at adipisci, reprehenderit iusto ut illum numquam.</p></div>
+      <div class="tab__body"><p>Returns text. Voluptatem explicabo officiis voluptates, aut impedit.</p></div>
+    </section>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

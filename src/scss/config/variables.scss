@@ -1,5 +1,10 @@
 :root {
-  /* Variables CSS */
+  --title-position: 0;
+  --title-scale: 1;
 }
 
 /* Variables SASS */
+
+* {
+  outline: 0px dashed rgba(255, 0, 0, 0.4);
+}
